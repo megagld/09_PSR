@@ -5,10 +5,10 @@ amm=200 #ilość obiektów
 background_colour = (12, 182, 204) # background_colour
 width, height = 1200, 600 # Screen size
 
-#setting screen on second monitor
-mx = 2600
-my = 50
-os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (mx,my)
+# #setting screen on second monitor
+# mx = 2600
+# my = 50
+# os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (mx,my)
 
 screen = pygame.display.set_mode((width, height)) #Setting Screen
 screen.fill(background_colour)#Fills white to screen
